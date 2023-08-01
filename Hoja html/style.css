@@ -1,0 +1,113 @@
+html {
+  font-family: 'courier new', serif;
+
+}
+.titulo {
+ 
+  margin: ;
+  background-color: #0e092b;
+  text-align: center;
+  padding: 50px 0;
+  
+}
+.containerp {
+    display: flex;
+    margin: 15px 300px 25px 300px;
+    border: 1px solid #675bd3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.3);
+    
+      }
+  
+  .container, #Container {
+    flex: 1; 
+    margin: 0;
+
+  }
+  
+  .tabla1 th,
+  .tabla1 td {
+    text-align: left;
+  }
+  .barra {
+    width: 100px;
+    height: 20px;
+    background-color: #26223d;
+    border-radius: 2px;
+    position: relative;
+  }
+  
+  
+  .barraA {
+    width: 100px;
+    height: 20px;
+    background-color: #26223d;
+    border-radius: 2px;
+    position: relative;
+    
+  }
+  
+  .barraB {
+    width: 60px;
+    height: 20px;
+    background-color: #413a74;
+    border-radius: 2px;
+    position: relative;
+  }
+  
+  .barraC {
+    width: 100px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #26223d;
+    position: relative;
+  }
+
+  .texto1 {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .avanzado {
+    color: rgb(0, 0, 0);
+  }
+  
+  .intermedio {
+    color: rgb(0, 0, 0);
+  }
+  
+  .medio {
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  #Container {
+    background-color: #b2b2cf; 
+    padding: 20px; 
+    display:  Container-block;
+    flex: 80%;
+
+}
+  
+.container {
+    background-color: #67678f; 
+    padding: 20px; 
+    border: solid 20px #867996;
+    display: inline-block;
+    flex: 20%;
+    
+}
+.imagen {
+
+  
+    display: flex;
+  justify-content: center;
+  }
+
+
+img{
+  width: 100%;
+}
+a {
+  color: #0e092b ;
+}
